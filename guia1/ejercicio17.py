@@ -4,7 +4,8 @@
 
 for numero in range( 1, 11):
     print(f"Tabla de multiplicar del {numero}")
+    print()
     for digito in range (10):
         print(f"{numero}x{digito} = {numero * digito}")
-
+        print()
         print()
