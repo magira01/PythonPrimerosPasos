@@ -7,5 +7,12 @@ rta = input("Ingrese una palabra :")
 while rta != "salir":
     print(rta)
 
-    rta=inut("Ingrese una palabra oescriba salir pparafinalizar :")
-    
+    rta=input("Ingrese una palabra o \nescriba salir para finalizar : ")
+
+ 
+ # otra manera de hacerlo es con un bucle infinito while true, hasta romperlo creando una condicion.
+while True:
+    rta = input("Ingrese una palabra o escriba 'salir' para finalizar : ")
+    if rta == "salir":
+        break
+    print(rta)    

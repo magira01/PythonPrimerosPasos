@@ -4,4 +4,7 @@
 # n una lista y muestre por pantalla el mensaje 
 # “Yo estudio <asignatura>”, donde <asignatura> es cada una de las asignaturas de la lista.
 
-materias = [ "Matematicas"]
+materias = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+
+for materia in materias:
+    print(f"Yo estudio {materia}")

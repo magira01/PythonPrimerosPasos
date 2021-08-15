@@ -14,3 +14,17 @@
 #Crear un programa que lea la puntuación del usuario e indique su nivel de rendimiento,
 #así como la cantidad de dinero que recibirá el usuario.
 
+punt_us = float(input("Ingrese la puntuación obtenida: "))
+bonif = punt_us * 100000
+
+if punt_us == 0.0:
+    bonif *= punt_us
+    print(f"Rendimiento inaceptable, recibe {bonif} pesos")
+elif punt_us == 0.4:
+    bonif *= punt_us
+    print(f"Rendimiento aceptable, recibe {bonif} pesos")
+elif punt_us >= 0.6:
+    bonif *= punt_us
+    print(f"Rendimiento meritorio, recibe {bonif} pesos")
+else:
+    print("No ingresó una puntuación correcta")

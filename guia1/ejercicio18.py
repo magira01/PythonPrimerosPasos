@@ -2,10 +2,10 @@
 # Crear un programa que pida al usuario una palabra y luego muestre por
 #pantalla una a una las letras de la palabra introducida empezando por la última
 
-frase = input("Ingrese una frase: ")
-letra= input("Ingrese una letra: ")
+palabra = input("Ingrese una palabra: ")
+for letra in palabra[::-1]:
+    print(letra)
 
-cont = 0
-for caracter in frase:
-    if caracter == letra:
-        cont += 1
+palabra = input("Ingrese una palabra: ") # esta es otra manera de realizarlo
+for letra in reversed(palabra):
+    print(letra)   
